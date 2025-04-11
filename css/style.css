@@ -22,6 +22,7 @@ body{
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    box-sizing: border-box;
 }
 
 .nav{
@@ -123,7 +124,12 @@ body{
 }
 
 .services_img{
-    flex-basis: 100px;
+    flex-basis: 165px;
+    text-align: center;
+}
+
+.services_text{
+    flex-basis: calc(80% - 165px);
 }
 
 .services h3{
