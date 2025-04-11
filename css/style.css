@@ -12,3 +12,11 @@ body{
     align-items: center;
     box-sizing: border-box;
 }
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.nav>li{
+    margin-left: 15px;
+}
