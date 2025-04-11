@@ -1,6 +1,7 @@
 body{
 
 }
+
 .header{
     width: 100%;
     max-width: 1180px;
@@ -12,14 +13,28 @@ body{
     align-items: center;
     box-sizing: border-box;
 }
+
 .nav{
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
 }
+
 .nav>li{
     margin-left: 15px;
 }
-.logo_img{
-    
+
+.logo{
+    display: flex;
+    align-items: center;
 }
+
+
+
+.logo_img{
+    display: block;
+    width: 58px;
+    height: 58px;
+    background-image: url(../img/logo.svg);
+}
+
