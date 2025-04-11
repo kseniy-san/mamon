@@ -77,4 +77,13 @@ page{
 
 .page-top{
     border-top: 1px solid #C2C2C2;
+    position: relative;
+}
+
+.page h2{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: white;
+    padding: 5px 15px;
 }
