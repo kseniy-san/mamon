@@ -1,5 +1,5 @@
 body{
-
+    font-family: "Ubuntu", sans-serif;
 }
 
 .header{
@@ -37,7 +37,7 @@ body{
     display: block;
     width: 58px;
     height: 58px;
-    background-image: url(../img/logo.svg);
+    background-image: url(../img/Page1.svg);
     margin-right: 20px;
 }
 
