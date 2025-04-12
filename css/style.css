@@ -145,8 +145,9 @@ body{
 
 .clients{
     display: grid;
-    grid-template: 120px 120px/repeat(4,25%);
+    grid-template: repeat(2,1fr)/repeat(4,25%);
     text-align: center;
+    grid-row-gap: 40px;
 }
 
 .team{
