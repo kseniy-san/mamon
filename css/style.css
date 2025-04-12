@@ -176,6 +176,12 @@ body{
     flex-basis: calc(100%-100px);
 }
 
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .social{
     display: flex;
     list-style-type: none;
