@@ -16,6 +16,12 @@ body{
     padding-top: 30px;
 }
 
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F7F7F7;
+}
+
 .wrap{
     width: 100%;
     max-width: 1180px;
@@ -169,3 +175,4 @@ body{
 .team-item>div{
     flex-basis: calc(100%-100px);
 }
+
